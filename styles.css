@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.paragraph-style {
+  box-shadow: 1px 1px 5px black;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 100px 50px ;
+  white-space: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 18px;
+  padding-right: 25px;
+}
+.js-todo-add-button {
+  background-color: green;
+  height: 33px;
+  width: 70px;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+}
+.header {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  background-color: green;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.github {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  margin-right: 20px;
+  margin-top: 3px;
+}
+.js-todo-input {
+  height: 30px;
+  width: 200px;
+  border-style: solid;
+  border-color: green;
+  border-width: 1px;
+  border-radius: 30px;
+  text-align: center;
+}
+.delete-button {
+  background-color: red;
+  height: 33px;
+  width: 70px;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+}
+.js-date-input {
+  height: 33px;
+  width: 70px;
+  border: solid 1px gray;
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.add-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 5px;
+}
+body {
+  background-color: lightgreen;
+}

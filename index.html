@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    
+    <div>Todo list</div>
+
+    <a href="https://github.com/abraaorochapb" target="_blank">
+      <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" class="github">
+    </a>
+
+  </header>
+  <div class="add-info">
+    
+    <input type="text" placeholder="add new todo" class="js-todo-input"
+    onkeydown="if (event.key === 'Enter'){
+      addTodo();
+    }">
+    
+    <input type="date" class="js-date-input"
+    onkeydown="if (event.key === 'Enter'){
+      addTodo();
+    }">
+
+    <button class="js-todo-add-button" onclick="addTodo()">
+      Add
+    </button>
+
+  </div>
+  
+  
+  <div class="js-alguma-coisa"></div>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
